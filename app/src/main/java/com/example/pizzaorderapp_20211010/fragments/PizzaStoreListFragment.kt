@@ -42,6 +42,7 @@ class PizzaStoreListFragment : Fragment() {
 
             val myIntent = Intent(requireContext(), ViewStoreDetailActivity::class.java)
             myIntent.putExtra("store", clickStore)
+            startActivity(myIntent)
 
         }
 
